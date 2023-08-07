@@ -35,10 +35,9 @@ android {
 dependencies {
     tezovCatalog {
 //api
-        with("projectPath.dependencies.core") {
+        with("projectPath.dependencies.kmm_core") {
             api(string("annotation"))
             api(string("coroutines"))
-            api(string("coroutines_android"))
         }
 
     }
