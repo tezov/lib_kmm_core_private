@@ -1,7 +1,7 @@
 
 
 
-package com.tezov.lib_adr_core.type.ref
+package com.tezov.lib_kmm_core.type.ref
 
 //Strong
 class SR<T : Any>(ref: T? = null) : Ref<T>() {

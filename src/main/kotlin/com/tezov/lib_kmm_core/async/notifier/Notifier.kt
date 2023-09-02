@@ -10,8 +10,8 @@ import com.tezov.lib_kmm_core.extension.ExtensionIterable.remove
 import com.tezov.lib_kmm_core.extension.ExtensionNull.isNotNull
 import com.tezov.lib_kmm_core.extension.ExtensionNull.isNull
 import com.tezov.lib_kmm_core.type.collection.ConcurrentLinkedSet
-import com.tezov.lib_adr_core.type.ref.Ref.Companion.value
-import com.tezov.lib_adr_core.type.ref.WR
+import com.tezov.lib_kmm_core.type.ref.Ref.Companion.value
+import com.tezov.lib_kmm_core.type.ref.WR
 import com.tezov.lib_kmm_core.util.UtilsNull.ifNotNull
 
 internal typealias NotifierAny = Notifier<Any, Packet<Any>, Observable<Any, Packet<Any>>>

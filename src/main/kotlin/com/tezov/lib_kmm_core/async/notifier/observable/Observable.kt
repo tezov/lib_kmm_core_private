@@ -7,8 +7,8 @@ import com.tezov.lib_kmm_core.async.notifier.Notifier
 import com.tezov.lib_kmm_core.async.notifier.Notifier.Packet
 import com.tezov.lib_kmm_core.async.notifier.NotifierAny
 import com.tezov.lib_kmm_core.type.collection.ListOrObject
-import com.tezov.lib_adr_core.type.ref.Ref.Companion.value
-import com.tezov.lib_adr_core.type.ref.WR
+import com.tezov.lib_kmm_core.type.ref.Ref.Companion.value
+import com.tezov.lib_kmm_core.type.ref.WR
 
 abstract class Observable<EVENT : Any, PACKET : Packet<EVENT>> : Notifier.Observable<EVENT, PACKET> {
     private val accessList = ListOrObject<PACKET>()

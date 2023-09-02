@@ -1,7 +1,7 @@
 
 
 
-package com.tezov.lib_adr_core.type.ref
+package com.tezov.lib_kmm_core.type.ref
 
 import com.tezov.lib_kmm_core.extension.ExtensionNull.isNotNull
 import com.tezov.lib_kmm_core.extension.ExtensionNull.isNull

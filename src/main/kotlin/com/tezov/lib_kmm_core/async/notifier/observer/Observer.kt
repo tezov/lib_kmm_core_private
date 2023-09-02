@@ -6,7 +6,7 @@ package com.tezov.lib_kmm_core.async.notifier.observer
 import com.tezov.lib_kmm_core.async.notifier.Notifier.Packet
 import com.tezov.lib_kmm_core.async.notifier.Notifier.Subscription
 import com.tezov.lib_kmm_core.extension.ExtensionBoolean.isTrueOrNull
-import com.tezov.lib_adr_core.type.ref.WR
+import com.tezov.lib_kmm_core.type.ref.WR
 
 abstract class Observer<EVENT : Any, PACKET : Packet<EVENT>>(owner: Any, val event: EVENT?) {
     private val ownerWR: WR<Any> = WR(owner)
