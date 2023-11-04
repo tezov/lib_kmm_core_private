@@ -16,7 +16,7 @@ tezovConfig {
 
 android {
     tezovCatalog {
-        with("projectVersion") {
+        with("projectVersions") {
             compileSdk = int("defaultCompileSdk")
             compileOptions {
                 sourceCompatibility = javaVersion("javaSource")
@@ -35,7 +35,7 @@ android {
 dependencies {
     tezovCatalog {
 //api
-        with("projectPath.dependencies.kmm_core") {
+        with("libraries.runtime.kmm_core") {
             api(string("annotation"))
             api(string("coroutines"))
         }
